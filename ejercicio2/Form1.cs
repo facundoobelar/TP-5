@@ -25,7 +25,7 @@ namespace ejercicio2
         private void button1_Click(object sender, EventArgs e)
         {
             string iOpcionSeleccionada = "";
-            if(radioButton1.Checked==true)
+            if(radioButton1.Checked==true) 
             {
                 iOpcionSeleccionada = "Radio button 1 seleccionado";
             }
