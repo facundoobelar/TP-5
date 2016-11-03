@@ -19,17 +19,37 @@ namespace ejercicio4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "button1";
+            textBox1.Text = textBox1.Text +  button1.Text + "\r\n";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "button2";
+            textBox1.Text = textBox1.Text + button2.Text + "\r\n";
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + button5.Text + "\r\n";
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text +  button6.Text + "\r\n";
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + button4.Text + "\r\n";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text+  button3.Text + "\r\n";
         }
     }
 }
